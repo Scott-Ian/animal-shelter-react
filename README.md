@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project will utilize the AnimalShelterAPI project from this [repository](https://github.com/Scott-Ian/AnimalShelterAPI.Solution.git)
 
-## Available Scripts
+Components/functionality:
+  * Cat Animal List
+  * Dog Animal List
+  * Details for for an animal
+  * Ability to post/create a new animal and edit a new animal
+  * Styling?
+  * Random cat images via this url: 'http://placekitten.com/200/300'
+  * Random dog images via this url: 'http://placedog.net/200/300' 
+    ** Dog and cat url may have swapped height/width placement in url query
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+ # Animal Shelter API
 
-### `npm test`
+ ### By Ian Scott and Noel Kirkland - 9/26/2020
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+•[Setup](#1)<br>
+•[Bugs](#3)<br>
+•[Contact](#4)<br>
+•[Tech](#5)<br>
+•[License](#6)
 
-### `npm run build`
+## Description
+An Application Programming Interface (API) that returns dogs and cats located within an Animal Shelter's database, this application utilizes C# for a back end and a React front.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup/Installation Requirements <a name="1"></a>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Known Bugs <a name="3"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+There are no known bugs at this time
 
-### `npm run eject`
+## Support and Contact Details <a name="4"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If there are any issues or questions contact us through [GitHub](https://github.com/Scott-Ian)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used <a name="5"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+*  C#
+*  MySQL
+*  React
+*  Redux
+*  Thunk
+*  HTML
+*  CSS
+*  Markdown
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### License <a name="6"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+*This project uses the following license: [MIT](https://opensource.org/licenses/MIT)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Intellectual property of Noel R. Kirkland - 2020
